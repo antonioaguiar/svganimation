@@ -12,7 +12,7 @@ body{
 
 #logo{
     position: absolute;
-    top: 20%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);   
     animation: fill 0.5s ease forwards 3.5s;
@@ -61,4 +61,139 @@ body{
     to{
         fill: white;
     }
+}
+
+
+
+#aguiar{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
+    animation: fill 0.5s ease forwards 3.5s;
+}
+
+#aguiar path:nth-child(1){
+    stroke-dasharray: 506;
+    stroke-dashoffset: 506;
+    animation: line-anim 2s ease forwards;
+}
+
+#aguiar path:nth-child(2){
+    stroke-dasharray: 693;
+    stroke-dashoffset: 693;  
+    animation: line-anim 2s ease forwards 0.3s;  
+}
+
+#aguiar path:nth-child(3){
+    stroke-dasharray: 422;
+    stroke-dashoffset: 422;    
+    animation: line-anim 2s ease forwards 0.6s;
+}
+
+#aguiar path:nth-child(4){
+   stroke-dasharray: 239;
+    stroke-dashoffset: 239;    
+    animation: line-anim 2s ease forwards 0.9s;
+}
+
+#aguiar path:nth-child(5){
+    stroke-dasharray: 506;
+    stroke-dashoffset: 506;    
+    animation: line-anim 2s ease forwards 1.2s;
+}
+
+#aguiar path:nth-child(6){
+    stroke-dasharray: 246;
+    stroke-dashoffset: 146;    
+    animation: line-anim 2s ease forwards 1.2s;
+}
+
+
+/* -===========================================*/ 
+
+#antonio{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
+    animation: fill 0.5s ease forwards 6s;
+}
+
+#antonio path:nth-child(1){
+    stroke-dasharray: 767;
+    stroke-dashoffset: 767;
+    animation: line-anim 2s ease forwards;
+}
+
+#antonio path:nth-child(2){
+    stroke-dasharray: 424;
+    stroke-dashoffset: 424;  
+    animation: line-anim 2s ease forwards 0.5s;  
+}
+
+#antonio path:nth-child(3){
+    stroke-dasharray: 340;
+    stroke-dashoffset: 340;    
+    animation: line-anim 2s ease forwards 1.0s;
+}
+
+#antonio path:nth-child(4){
+   stroke-dasharray: 371;
+    stroke-dashoffset: 371;    
+    animation: line-anim 2s ease forwards 1.5s;
+}
+
+#antonio path:nth-child(5){
+    stroke-dasharray: 424;
+    stroke-dashoffset: 424;    
+    animation: line-anim 2s ease forwards 2.0s;
+}
+
+#antonio path:nth-child(6){
+    stroke-dasharray: 248;
+    stroke-dashoffset: 248;    
+    animation: line-anim 2s ease forwards 2.5s;
+}
+
+#antonio path:nth-child(7){
+    stroke-dasharray: 371;
+    stroke-dashoffset: 371;    
+    animation: line-anim 2s ease forwards 3.0s;
+}
+
+#antonio path:nth-child(8){
+    stroke-dasharray: 767;
+    stroke-dashoffset: 767;    
+    animation: line-anim 2s ease forwards 3.5s;
+}
+
+#antonio path:nth-child(9){
+    stroke-dasharray: 609;
+    stroke-dashoffset: 609;    
+    animation: line-anim 2s ease forwards 4.0s;
+}
+
+#antonio path:nth-child(10){
+    stroke-dasharray: 432;
+    stroke-dashoffset: 432;    
+    animation: line-anim 2s ease forwards 4.5s;
+}
+
+#antonio path:nth-child(11){
+    stroke-dasharray: 248;
+    stroke-dashoffset: 248;    
+    animation: line-anim 2s ease forwards 5.0s;
+}
+
+#antonio path:nth-child(12){
+    stroke-dasharray: 441;
+    stroke-dashoffset: 441;    
+    animation: line-anim 2s ease forwards 6.0s;
+}
+
+#antonio path:nth-child(13){
+    stroke-dasharray:242;
+    stroke-dashoffset: 242;    
+    animation: line-anim 2s ease forwards 6.5s;
 }

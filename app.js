@@ -1,4 +1,4 @@
-const logo = document.querySelectorAll("#logo path");
+const logo = document.querySelectorAll("#antonio path");
 
 //console.log(logo);
 
